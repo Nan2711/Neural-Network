@@ -1,5 +1,4 @@
 Neural Network From Scratch 
-he neural network is implemented using Python's classes. We have defined two activation functions - sigmoid and softmax. Sigmoid for intermediate layers and softmax for the final layer. Cross entropy as loss function is used as mentioned in the assignment. These activations and loss functions are implemented in strategy design pattern principles. The neural net layers are abstracted in a single class. The mechanism of forward and backward propagation is implemented in FullyConnectedLayer class itself.
-The class Model, is responsible for handling the mini batch gradient descent. We define our entire network using objects of our FullyConnectedLayer class, activation classes and loss function classes. 
+he neural network is implemented using Python's classes. We have defined two activation functions - sigmoid and softmax. Sigmoid for intermediate layers and softmax for the final layer. Cross entropy as loss function is used 
 Finally we train the network for a max of 8000 epochs with a convergence early stopping criteria. If the loss goes lower than 0.05, we stop training and return the predictions. 
  
